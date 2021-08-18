@@ -5,6 +5,8 @@ let g:lightline.enable = {
     \ 'tabline': 0
     \ }
 
+inoremap jk <ESC>
+
 let g:airline_powerline_fonts = 1
 let g:airline_theme='tomorrow'
 let g:airline#extensions#tabline#enabled = 1
